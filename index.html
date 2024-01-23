@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="apply_box">
+            <h1>Job Application <span class="title_small">(web)</span></h1>
+            <form action="" class="login">
+                <div class="form_container">
+                    <label for="first_name" class="">First Name</label>
+                    <br>
+                    <input class="custom-input" type="text" id="first_name" placeholder="Enter First Name" required><br>
+                </div>
+                <div class="form_container">
+                    <label for="last_name" class="">Last Name</label><br>
+                    <input  class="custom-input" type="text" id="last_name" placeholder="Enter last Name" required><br>
+                </div>
+                <div class="form_container">
+                    <label for="email" class="">First Name</label>
+                    <br>
+                    <input class="custom-input" type="email" id="email" placeholder="Enter First Name" required><br>
+                </div>
+                <div class="form_container">
+                    <label for="selectOption">Job Role :</label><br>
+                    <select class="custom-input"  id="selectOption" name="selectOption">
+                    <option value="" disabled selected hidden>select your role</option>
+                    <option value="option1">Frontend Developer</option>
+                    <option value="option2">Backend Developer</option>
+                    <option value="option3">App Developer</option>
+                    <option value="option3">ML engineer</option>
+                    <option value="option3">Graphic Designer</option>
+                    </select>
+                </div>
+                <div class="form_container">
+                    <label for="email" class="">Address</label>
+                    <br>
+                    <textarea id="description" class="custom-input" rows="4" cols="52" placeholder="Enter your ADDRESS here..."></textarea><br><br>
+                </div>
+                <div class="but">
+                    <button class ="sub">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
